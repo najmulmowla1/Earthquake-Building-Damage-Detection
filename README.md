@@ -19,7 +19,7 @@ We introduce the **UAVs-Turkey Earthquake Building Damage Estimation (UAVs-TEBDE
 
 ---
 
-## 🧠 Model Components
+## Model Components
 
 This repository currently includes the following core modules:
 
@@ -33,7 +33,7 @@ This repository currently includes the following core modules:
 - Positional encoding + stacked SCA_HMDA layers
 - Reduces to compact global descriptors
 
-### 3. 🧱 `model.py` – Full Architecture
+### 3. `model.py` – Full Architecture
 - Custom CNN for initial feature extraction
 - ViT block integrated into the pipeline
 - Fully connected layers for classification
