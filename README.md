@@ -8,15 +8,21 @@ This work was motivated by the 2023 Turkey earthquakes, with the goal of support
 
 ---
 
-## 🔍 Dataset: UAVs-TEBDE
+## Dataset: UAVs-TEBDE
 
-We introduce the **UAVs-Turkey Earthquake Building Damage Estimation (UAVs-TEBDE)** dataset:
-- 3 damage categories: **Cracked**, **Partially Damaged**, and **Collapsed**
-- 2,160 high-resolution samples per class (augmented)
-- Image size: 256×256 pixels (RGB)
-- Designed to support machine learning models in disaster assessment
-- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
----
+We introduce the UAVs-Turkey Earthquake Building Damage Estimation (UAVs-TEBDE) dataset, a high-resolution aerial imagery collection developed to support AI-based post-disaster damage assessment using deep learning and computer vision techniques. The dataset comprises:
+
+-Three damage categories: Cracked, Partially Damaged, and Collapsed
+-2,160 augmented samples per class, totaling 6,480 images
+-Image resolution: 256×256 pixels (RGB)
+-Curated for training and benchmarking machine learning models in structural damage classification
+
+Distributed under the CC BY 4.0 license
+
+The UAVs-TEBDE dataset is publicly available via Mendeley Data:
+https://data.mendeley.com/drafts/5m349hfvkb
+Citation:
+Mowla, Md. Najmul; Asadi, Davood (2025), UAVs-based Turkey Earthquake Building Damage Estimation Dataset (UAVs-TEBDE), Mendeley Data, V3, https://doi.org/10.17632/5m349hfvkb.3
 
 ## Model Components
 
@@ -39,7 +45,7 @@ This repository currently includes the following core modules:
 
 ---
 
-## 📦 Installation
+## Installation
 
 Ensure you have the following dependencies installed:
 
